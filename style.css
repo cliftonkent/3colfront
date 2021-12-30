@@ -1,0 +1,50 @@
+.sedan {
+    background-color:hsl(31, 77%, 52%);
+    padding: 2.5rem;
+    border-radius: 15px;
+    
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5rem;
+    border-radius: 15px;
+}
+.lux {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5rem;
+    border-radius: 15px;
+}
+button {
+    margin-top: 2rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 30px;
+}
+.container {
+    font-family: "Big Shoulders Display";
+    font-size: 15px;
+    color: white;
+    margin: 1.5rem;
+}
+@media (min-width:400px) {
+    .container {
+        display: flex;
+        margin: 5rem;
+        width: 60%;
+        margin-left: 18rem;
+        
+    }
+    
+}
+.sedbutton {
+    color:hsl(31, 77%, 52%) ;
+}
+.suvbutton {
+    color:hsl(184, 100%, 22%) ;
+}
+.luxbutton {
+    color:hsl(179, 100%, 13%) ;
+}
+h1 {
+    font-family: "Lexend Deca";
+}
